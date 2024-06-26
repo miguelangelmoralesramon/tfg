@@ -16,7 +16,8 @@ Este es el código de mi TFG, donde abarco las redes neuronales más importantes
 ## Utilización de los transformers
 Entrenar los modelos del archivo transformer_training.ipynb ha requerido de más de 40h utilizando una GPU NVIDIA A100. Para evitar este costoso proceso, los modelos están disponibles en esta [carpeta de OneDrive](https://ucomplutense-my.sharepoint.com/:f:/g/personal/mimora02_ucm_es/EpydMcjnsEJHkTRVycbAA8EBFRQMjzfQFhnJGbe5bDzXug?e=yXNT56), solo para miembros de la UCM. Los modelos tienen los mismos nombres que en la memoria del TFG: transformer_base, transformer1, transformer2 y transformer_final.pth.tar.
 
-Para utilizar cualquiera de los modelos hay que seguir los siguientes pasos:
+#### Para utilizar cualquiera de los modelos hay que seguir los siguientes pasos:
+
 1. Clonar el repositorio:
 2. Descargar el modelo que se desea utilizar:
 <img width="1113" alt="Screenshot 2024-06-26 at 17 42 51" src="https://github.com/miguelangelmoralesramon/tfg/assets/30403390/9d658279-f419-4d62-8ba0-fce7d41aec84">
