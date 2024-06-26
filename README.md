@@ -20,8 +20,10 @@ Para utilizar cualquiera de los modelos hay que seguir los siguientes pasos:
 1. Clonar el repositorio:
 2. Descargar el modelo que se desea utilizar:
 <img width="1113" alt="Screenshot 2024-06-26 at 17 42 51" src="https://github.com/miguelangelmoralesramon/tfg/assets/30403390/9d658279-f419-4d62-8ba0-fce7d41aec84">
-3. Abrir el archivo transformer_training.ipynb y crear el objeto del modelo que se quiere utilizar: 
+3. Abrir el archivo transformer_training.ipynb y crear el objeto del modelo que se quiere utilizar:
+
 ```python
+
 d_model = 512
 batch_size = 50
 ffn_hidden = 2048
@@ -49,6 +51,7 @@ transformer_final = Transformer(d_model,
                           PADDING_TOKEN)
 ```
 4. Cargar el modelo pre-entrenado en el objeto creado. Para ello será necesario el path del modelo desacargado, en mi caso:
+   
 ```python
 transformer_final.load_state_dict(torch.load('./drive/MyDrive/ColabNotebooks/Models/transformer_final.pth.tar',map_location=torch.device('cuda')))
 ```
@@ -60,4 +63,4 @@ transformer_final.to(torch.device('cuda'))
 ```python
 traduccion = translate(transformer_final, "my name is miguel")
 ```
-`:warning:` Los vocabularios utilizados para entrenar los modelos no contienen letras mayúsculas, así que intentar traducir una frase que las contenga seguramente resulte en un error.
+:warning: Los vocabularios utilizados para entrenar los modelos no contienen letras mayúsculas, así que intentar traducir una frase que las contenga seguramente resulte en un error.
