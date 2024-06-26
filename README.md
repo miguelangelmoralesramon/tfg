@@ -63,4 +63,7 @@ transformer_final.to(torch.device('cuda'))
 ```python
 traduccion = translate(transformer_final, "my name is miguel")
 ```
+```bash
+>>> my nombre es miguel
+```
 :warning: Los vocabularios utilizados para entrenar los modelos no contienen letras mayúsculas, así que intentar traducir una frase que las contenga seguramente resulte en un error :warning:
