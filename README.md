@@ -1,5 +1,5 @@
 # TFG
-Este es el código de mi TFG, donde abarco las redes neuronales más importantes hasta terminar con el transformer. 
+Este es el código de mi TFG, donde abarco las redes neuronales más importantes, empezando con las redes neuronales artificiales y terminando con el protagonista principal del trabajo, el transformer 🚀. 
 
 - ann_MNIST.ipynb contiene el código utilizado para entrenar las redes neuronales artificiales correspondientes al capítulo 2, así como las métricas calculadas para evaluar su rendimiento.
 - cnn_MNIST.ipynb es el script utilizado para diseñar y entrenar las redes neuronales artificiales del capítulo 3.
@@ -14,7 +14,7 @@ Este es el código de mi TFG, donde abarco las redes neuronales más importantes
   - transformers_BLEU.upynb : cálculo de las métricas sacreBLEU para evaluar los transformers entrenados.
   - La carpeta tranformer_final_architecture contiene el diseño y arquitectura del transformer final, en formato .png y .drawio.
 
-## Utilización de los transformers
+## Utilización de los transformers 🏗️
 Entrenar los modelos del archivo transformer_training.ipynb ha requerido de más de 40h utilizando una GPU NVIDIA A100. Para evitar este costoso proceso, los modelos están disponibles en esta [carpeta de OneDrive](https://ucomplutense-my.sharepoint.com/:f:/g/personal/mimora02_ucm_es/EpydMcjnsEJHkTRVycbAA8EBFRQMjzfQFhnJGbe5bDzXug?e=yXNT56), solo para miembros de la UCM. Los modelos tienen los mismos nombres que en la memoria del TFG: transformer_base, transformer1, transformer2 y transformer_final.pth.tar.
 
 #### Para utilizar cualquiera de los modelos hay que seguir los siguientes pasos:
