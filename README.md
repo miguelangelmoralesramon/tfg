@@ -8,8 +8,11 @@ Este es el código de mi TFG, donde abarco las redes neuronales más importantes
   - **transformer.py** : script con el desarrollo de la clase Transformer, que replica la arquitectura y funcionamiento de este tipo de redes.
   - **transformer_training.ipynb** : código utilizado para entrenar todos los modelos evaluados del traductor de inglés a español.
   - **translation_arrays.py** : contiene los arrays con las predicciones sobre el conjunto de prueba de cada uno de los modelos entrenados.
-    original_sentence son las frases del conjunto de test traducidas por los modelos.
+    
+    *original_sentence* son las frases del conjunto de test traducidas por los modelos.
+    
     *spanish_translation* son las traducciones en español del conjunto de prueba.
+    
     *prediction_{"nombre del transformer"}* contiene las predicciones realizadas sobre el conjunto de prueba del transformer que se indica.
   - **transformers_BLEU.upynb** : cálculo de las métricas sacreBLEU para evaluar los transformers entrenados.
   - La carpeta **tranformer_final_architecture** contiene el diseño y arquitectura del transformer final, en formato .png y .drawio.
